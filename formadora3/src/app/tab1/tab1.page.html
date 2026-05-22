@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Cartão de Identificação</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="cartao-wrapper">
+    <ion-card class="cartao-identidade">
+      <div class="cartao-foto-wrap">
+        <img src="assets/foto-perfil.png" alt="Foto do estudante" class="cartao-foto"/>
+      </div>
+      <ion-card-header>
+        <ion-card-title>{{ nomeCompleto }}</ion-card-title>
+        <ion-card-subtitle>Análise e Desenvolvimento de Sistemas</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list lines="none">
+          <ion-item>
+            <ion-label>
+              <p class="rotulo">Código da Turma</p>
+              <p class="valor">{{ codigoTurma }}</p>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              <p class="rotulo">Unidade</p>
+              <p class="valor">{{ unidade }}</p>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              <p class="rotulo">Turno</p>
+              <p class="valor">{{ turno }}</p>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              <p class="rotulo">Palavra-chave</p>
+              <p class="valor">{{ palavraChave }}</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
