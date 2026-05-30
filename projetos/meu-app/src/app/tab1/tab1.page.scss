@@ -1,0 +1,33 @@
+.banner {
+  background: linear-gradient(135deg, #3880ff, #5b5ea6);
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+  color: white;
+
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.5px;
+  }
+
+  p {
+    font-size: 1rem;
+    opacity: 0.85;
+    margin: 0;
+  }
+}
+
+.ion-padding {
+  padding: 16px !important;
+}
+
+.card-destaque {
+  border-radius: 16px !important;
+  border-left: 4px solid #3880ff;
+  margin: -1.5rem 0 1rem !important;
+  box-shadow: 0 4px 16px rgba(56,128,255,0.15) !important;}
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;}
